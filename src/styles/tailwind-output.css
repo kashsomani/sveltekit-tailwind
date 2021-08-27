@@ -583,27 +583,14 @@ video {
 .flex {
 	display: flex;
 }
-.grid {
-	display: grid;
-}
 .hidden {
 	display: none;
 }
 .transform {
 	transform: var(--tw-transform);
 }
-.grid-cols-1 {
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-.place-items-center {
-	place-items: center;
-}
 .border {
 	border-width: 1px;
-}
-.bg-gray-500 {
-	--tw-bg-opacity: 1;
-	background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
 }
 .drop-shadow {
 	--tw-drop-shadow: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));
